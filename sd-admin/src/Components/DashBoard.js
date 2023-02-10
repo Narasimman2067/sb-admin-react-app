@@ -1,7 +1,19 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+import Col from 'react-bootstrap/esm/Col';
+import Row from 'react-bootstrap/esm/Row';
+import { useHistory } from 'react-router-dom';
+import Base from '../Base/Base';
 
 const DashBoard = () => {
+  const history=useHistory();
+  useEffect(()=>{
+    if(!localStorage.getItem("user-name"))
+    history.replace("/login")
+    },[])
   return (
+    <div>
+
+            
             <div className='app-dash'>
           
 
@@ -15,10 +27,12 @@ const DashBoard = () => {
             <span>⬇️</span>Generated Button</button>
             </div>
             </div>
-          
-            <div class="dash-content row-grid">
-            <div class="col">
-            <div class="dash-box">
+            
+            <Row className='row'>
+              <Col >
+              <div class="dash-content row-grid ">
+            <div class="col ">
+            <div class="dash-box ">
             <p class="dash1" id="dash-colorbox">
             <span>EARNINGS(MONTHLY)</span>
 
@@ -26,6 +40,7 @@ const DashBoard = () => {
             <h1 class="dash-ruppe">$40,000</h1>
             </p>
             </div>
+            
             <br/>
             <br/>
             <div class="dash-box">
@@ -53,8 +68,11 @@ const DashBoard = () => {
             </div>
             </div>
             </div>
+              </Col>
+            </Row>
+           
             </div>
-                
+            </div>   
                 )
 }
 

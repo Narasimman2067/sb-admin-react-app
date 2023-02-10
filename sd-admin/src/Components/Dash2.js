@@ -1,13 +1,97 @@
 import Button from "react-bootstrap/esm/Button";
 import Col from "react-bootstrap/esm/Col";
 import Row from "react-bootstrap/esm/Row";
-import logo from "../phosing.svg";
+import logo from "../Images/phosing.svg";
 import Form from 'react-bootstrap/Form';
+import { useHistory } from "react-router-dom";
+import { useEffect } from "react";
 
 function Dash2() {
+  const history=useHistory();
+  useEffect(()=>{
+    if(!localStorage.getItem("user-name"))
+    history.replace("/login")
+    },[])
   return (
     <div className="dash2-color">
-      <Row>
+<h1>Colors</h1>
+<Row>
+
+<Col>
+<div className="color2-div2">
+<h6>Server Migration</h6>
+<h6>20%</h6>
+</div>
+
+<div className="color2-btn2"> 
+    
+<button className="color2-btndiv2" ></button>
+
+</div>
+
+
+<div className="color3-div3">
+<h6>Sales Tracking</h6>
+<h6>40%</h6>
+</div>
+
+<div className="color3-btn3"> 
+    
+<button className="color3-btndiv3" ></button>
+
+</div>
+<div className="color3-div3">
+<h6>Customer Database</h6>
+<h6>60%</h6>
+</div>
+
+
+
+<div className="color4-btn4"> 
+    
+<button className="color4-btndiv4" ></button>
+
+</div>
+<div className="color4-div4">
+<h6>
+Payout Details</h6>
+<h6>80%</h6>
+</div>
+<div className="color5-btn5"> 
+    
+<button className="color5-btndiv5" ></button>
+
+</div>
+
+
+
+
+<div className="color6-div6">
+<h6>Account Setup</h6>
+<h6>Complete!</h6>
+</div>
+
+<div className="color6-btn6"> 
+    
+<button className="color6-btndiv6" ></button>
+
+</div>
+
+
+
+
+
+
+
+</Col>
+
+
+
+
+
+
+
+      
         <Col>
           <h2>Illustration</h2>
           <img src={logo} className="App-logo" alt="logo" />
@@ -18,66 +102,7 @@ function Dash2() {
           </p>
         </Col>
       </Row>
-      <Row>
-
-        <Col>
-        <div className="color-div">
-        <h5>Server Migration</h5>
-        <h5>20%</h5>
-        </div>
-        
-        <div className="color-btn"> 
-            
-        <Button className="color-btndiv" ></Button>
-        
-        </div>
-        <div className="color-div">
-        <h5>Server Migration</h5>
-        <h5>20%</h5>
-        </div>
-        
-        <div className="color-btn"> 
-            
-        <Button className="color-btndiv" ></Button>
-        
-        </div>
-        <div className="color-div">
-        <h5>Server Migration</h5>
-        <h5>20%</h5>
-        </div>
-        
-        <div className="color-btn"> 
-            
-        <Button className="color-btndiv" ></Button>
-        
-        </div>
-        <div className="color-div">
-        <h5>Server Migration</h5>
-        <h5>20%</h5>
-        </div>
-        
-        <div className="color-btn"> 
-            
-        <Button className="color-btndiv" ></Button>
-        
-        </div>
-        <div className="color-div">
-        <h5>Server Migration</h5>
-        <h5>20%</h5>
-        </div>
-        
-        <div className="color-btn"> 
-            
-        <Button className="color-btndiv" ></Button>
-        
-        </div>
-      
-        
-       
-       
-       
-        </Col>
-      </Row>
+     
 
       <Row>
         <Col xl={2}>

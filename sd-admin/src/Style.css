@@ -4,6 +4,12 @@
   height: 100%;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
+.btn-margin{
+  padding-top:10%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 5%;
+}
 
 .search-btn {
   background-color: hsla(72, 88%, 47%, 0.877);
@@ -50,12 +56,13 @@
   border: 1px solid transparent;
   height: 1px;
   margin: 0%;
-  width: 25vw;
+  width: 18vw;
   margin-top: 10px;
   background-color: black;
 }
 .line-bar{
-  width: 25vw;
+  width: 17vw;
+ 
 }
 .side-head {
   font-size: 15px;
@@ -68,7 +75,7 @@
 }
 
 .side-bar {
-  max-width: 30vw;
+  max-width: 20vw;
   background-color: rgb(0, 170, 255);
   text-align: center;
   
@@ -98,6 +105,7 @@
 
 /* dashboard area of css */
 .dash-div {
+ 
   font-size: 30px;
   display: flex;
   flex-direction: column;
@@ -115,9 +123,10 @@
   color: azure;
 }
 .dash-content {
-  padding: 10%;
-  margin-left: 0%;
-  margin-top:5%;
+  padding-right: 10%;
+  padding-left: 5%;
+  /* margin-left: 0%; */
+  margin-top:3%;
 }
 .dash-box {
   
@@ -182,9 +191,33 @@
 }
 .row-grid{
   display: grid;
-  grid-template-columns:repeat(2,50%);
+  grid-template-columns:repeat(2,1fr);
 }
 @media(max-width:900px){
+  .side-bar {
+    max-width: 30vw;
+    background-color: rgb(0, 170, 255);
+    text-align: center;
+    
+  }
+  .seperator-line {
+    display: flex;
+    border: 1px solid transparent;
+    height: 1px;
+    /* margin: 0%; */
+    width: 25vw;
+    margin-top: 10px;
+    background-color: black;
+  }
+  .line-bar{
+    width: 25vw;
+  }
+  .dash-content {
+
+    padding-left: 13%;
+    /* margin-left: 0%; */
+    margin-top:3%;
+  }
   .dash-img{
     display: visible;
     margin-left: 400px;

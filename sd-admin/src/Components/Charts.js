@@ -1,13 +1,20 @@
-import React from "react";
-import logo from "../download.png";
-import logo1 from "../donutchart.png";
+import React, { useEffect } from "react";
+import logo from "../Images/download.png";
+import logo1 from "../Images/donutchart.png";
 import Row from "react-bootstrap/esm/Row";
 import Col from "react-bootstrap/esm/Col";
 import Dropdown from "react-bootstrap/Dropdown";
+import { useHistory } from "react-router-dom";
 
 export function Charts() {
+    const history=useHistory();
+    useEffect(()=>{
+      if(!localStorage.getItem("user-name"))
+      history.replace("/login")
+      },[])
 return (
-<div>
+<div className="charts-btn">
+    <h1>Charts</h1>
 <div className="App">
 <Row>
 <Col>

@@ -1,10 +1,59 @@
 .App {
-  /* text-align: center; */
-  
-  background-color:rgb(213, 208, 208);
+  scroll-behavior: smooth;
+  animation-timing-function: 5s;
+  background-color:aquamarine;
   height: 100%;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   overflow-x: hidden;
+ 
+}
+img{
+  cursor: pointer;
+}
+.tables-btn{
+  margin-top: 10%;
+  padding: 1%;
+}
+.nopage-btn{
+
+  margin-top: 20%;
+  font-family: algerian;
+  color: blue;
+  border: 2px solid;
+  height: 20vh;
+  background-color: antiquewhite;
+}
+.sign-home{
+  margin-left: 90%;
+}
+.signup-btn{
+  padding-top: 10%;
+  margin:4%
+}
+.login1-btn{
+  padding-top: 10%;
+}
+.color-div1{
+  padding: 10%;
+  /* margin-top: 5%; */
+  background-color:bisque;
+  border-radius: 2%;
+ 
+  margin-bottom: 20%;
+  color:blue;
+}
+.welcome-btn{
+
+  padding-top: 10%;
+  background-color: aqua;
+  padding-bottom:30%;
+  overflow: hidden;
+}
+
+
+.charts-btn{
+  padding-top: 10%;
+  
 }
 .nav-top{
  
@@ -81,21 +130,68 @@ h3{
 
 }
 .dash2-dev{
-  margin-left: 25%;
+  margin-left: 16.5%;
 }
 h2{
   font-family: cursive;
 }
 
-.color-div{
+.color2-div2{
   display: flex;
-  gap: 25rem;
+ padding-right: 20%;
+ justify-content:space-between;
+ /* padding-left: 40%; */
+ padding-right: 4%;
+  font-size: 5px;
+  margin-top: 25px;
 }
-.color-btn{
-  border: 1px solid grey;
+.color3-div3{
+  display: flex;
+ padding-right: 20%;
+ justify-content:space-between;
+ /* padding-left: 40%; */
+ padding-right: 4%;
+  font-size: 5px;
+  margin-top: 25px;
+}
+.color4-div4{
+  display: flex;
+ padding-right: 20%;
+ justify-content:space-between;
+ /* padding-left: 40%; */
+ padding-right: 4%;
+  font-size: 5px;
+  margin-top: 25px;
+}
+.color5-div5{
+  display: flex;
+ padding-right: 20%;
+ justify-content:space-between;
+ /* padding-left: 40%; */
+ padding-right: 4%;
+  font-size: 5px;
+  margin-top: 25px;
+}
+.color6-div6{
+  display: flex;
+ padding-right: 20%;
+ justify-content:space-between;
+ /* padding-left: 40%; */
+ padding-right: 4%;
+  font-size: 5px;
+  margin-top: 25px;
+}
+h6{
+  display: flex;
+  justify-content:space-between;
+  color: blue;
+  gap: 30rem;
+}
+.color2-btn2{
+  
   border-radius:10px 10px 10px 10px;
   width: 98%;
-  height: 5vh;
+  height: 3vh;
   padding-bottom: 20px;
   padding-Top:0px;
  
@@ -103,13 +199,214 @@ h2{
   margin-bottom: 10px;
  
 }
-.color-btndiv{
-   width: 50%;
-  height:4.8vh ;
-  border-radius:10px 5px 10px 0px;
+
+.color2-btndiv2{
+ margin-right: 80%;
+   width: 20%;
+  height:3vh ;
+  border-radius:10px 10px 10px 10px;
+  background-color:red;
+}
+.color3-btndiv3{
+  margin-right: 80%;
+  width: 40%;
+ height:3vh ;
+ border-radius:10px 10px 10px 10px;
+ background-color:yellow ;
+}
+.color4-btndiv4{
+  margin-right: 80%;
+  width: 60%;
+ height:3vh ;
+ border-radius:10px 10px 10px 10px;
+ background-color:rgb(31, 95, 246) ;
+}
+.color5-btndiv5{
+  margin-right: 80%;
+  width: 80%;
+ height:3vh ;
+ border-radius:10px 10px 10px 10px;
+ background-color:skyblue ;
+}
+.color6-btndiv6{
+  width: 100%;
+ height:3vh ;
+ border-radius:10px 10px 10px 10px;
+ background-color:green ;
+}
+.danger{
+  height: 40px;
+  background-color: yellow;
+  border-radius: 50%;
+  padding: 5px;
+
+}
+.danger2{
+  height: 40px;
+  background-color: rgb(237, 113, 119);
+  border-radius: 50%;
+  padding: 5px;
+  margin-left: 4px;
+
+}
+.btn-circle2{
+  color: rgb(247, 4, 53);
+  font-weight:bold ;
+}
+.btn-circle{
+  color: rgb(247, 4, 53);
+  font-weight:bold ;
+}
+.small-btn img{
+  height: 30px;
+ 
+}
+.large-btn img{
+  height: 50px;
+ 
+}
+#button-addon1{
+  background-color: rgba(42, 42, 239, 0.958);
+  opacity: 0.6;
+ 
+}
+#btn2{
+  display:inline-flex;
+ 
+  border-radius: 0px 5px 5px 0px;
+  color: white;
+ 
+}
+#btn2-input{
+  background-color:rgb(31, 68, 234);
+  width: 30vw;
+  color: white;
+  
+  height:6vh;
+  border-radius: 0px 5px 5px 0px;
+  font-weight:600;
+
+  
+}
+#button-addon2{
+  background-color:green ;
+  opacity: 0.7;
+}
+#btn2-input2{
+  width: 30vw;
+  height:6vh;
+  background-color: rgb(14, 233, 14);
+  font-weight:600;
+  border-radius: 0px 5px 5px 0px;
+}
+#button-addon3{
+  background-color:rgb(13, 155, 155) ;
+  opacity: 0.7;
+}
+#btn2-input3{
+  width: 30vw;
+  height:6vh;
+  background-color:rgb(7, 247, 247);
+  font-weight:600;
+  border-radius: 0px 5px 5px 0px;
+}
+.info-btn{
+ 
+  height:25px ;
+  opacity:0.5;
+}
+#button-addon4{
+  background-color:rgb(237, 233, 13) ;
+  opacity: 0.7;
+}
+#btn2-input4{
+  width: 30vw;
+  height:6vh;
+  background-color:rgb(239, 247, 7);
+  font-weight:600;
+  border-radius: 0px 5px 5px 0px;
+}
+#button-addon5{
+  background-color:red ;
+  opacity: 0.7;
+}
+#btn2-input5{
+  width: 30vw;
+  height:6vh;
+  background-color:rgb(239, 74, 74);
+  font-weight:600;
+  border-radius: 0px 5px 5px 0px;
+}
+#button-addon6{
+  background-color:grey ;
+  opacity: 0.7;
+}
+#btn2-input6{
+  width: 30vw;
+  height:6vh;
+  background-color:rgb(170, 168, 168);
+  font-weight:600;
+  border-radius: 0px 5px 5px 0px;
+}
+#button-addon7{
+  background-color:white ;
+  opacity: 0.8;
+}
+#btn2-input7{
+  width: 30vw;
+  height:6vh;
+  background-color:white;
+  font-weight:600;
+  border-radius: 0px 5px 5px 0px;
+}#button-addon8{
+  background-color:white ;
+  opacity: 0.8;
+}
+#btn2-input8{
+  width: 30vw;
+  height:6vh;
+  background-color:white;
+  font-weight:600;
+  border-radius: 0px 5px 5px 0px;
+}
+#button-addon8{
+  background-color:rgb(94, 78, 242) ;
+  opacity: 0.8;
+ 
+}
+#btn2-input8{
+  width: 30vw;
+  height:6vh;
+  background-color:rgb(76, 73, 234);
+  font-weight:600;
+ 
+  border-radius: 0px 5px 5px 0px;
+}
+.goog-fb{
+  display: flex;
+gap: 2rem;
+ width: 40vw;
+ padding-bottom: 40px;
 }
 
+
+
 @media (max-width:900px) {
+  .nopage-btn{
+    margin-top: 40%;
+    font-family: algerian;
+    color: blue;
+    border: 2px solid;
+    height: 20vh;
+    background-color: antiquewhite;
+  }
+  .welcome-btn{
+
+    padding-top: 20%;
+    background-color: aqua;
+    padding-bottom:30%;
+    overflow: hidden;
+  }
   .dash2-btn{
     height: 10vh;
    width: 90vmin;
@@ -132,6 +429,67 @@ h2{
   .dash2-dev{
     margin-left:1%;
   }
+/* color buttons of dash 2 */
+.color-btndiv{
+  width: 20%;
+ height:3vh ;
+ border-radius:10px 10px 10px 10px;
+ background-color:red;
+}
+.color-btndiv2{
+ width: 40%;
+height:3vh ;
+border-radius:10px 10px 10px 10px;
+background-color:yellow ;
+}
+.color-btndiv3{
+ width: 60%;
+height:3vh ;
+border-radius:10px 10px 10px 10px;
+background-color:rgb(31, 95, 246) ;
+}
+.color-btndiv4{
+ width: 80%;
+height:3vh ;
+border-radius:10px 10px 10px 10px;
+background-color:skyblue ;
+}
+.color-btndiv5{
+ width: 100%;
+height:3vh ;
+border-radius:10px 10px 10px 10px;
+background-color:green ;
+}
+/* buttons customization */
+.danger{
+  height: 40px;
+  background-color: yellow;
+  border-radius: 50%;
+  padding: 1%;
+
+}
+.danger2{
+  height: 40px;
+  background-color: rgb(237, 113, 119);
+  border-radius: 50%;
+  padding: 1%;
+  margin-left: 4px;
+
+}
+.btn-circle2{
+  color: rgb(247, 4, 53);
+  font-weight:bold ;
+}
+.btn-circle{
+  color: rgb(247, 4, 53);
+  font-weight:bold ;
+}
+.small-btn img{
+  height: 30px;
+ 
+}
+
+
 }
 
 
